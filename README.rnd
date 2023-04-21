@@ -1,0 +1,22 @@
+Dom Brugioni
+2402157
+
+Project 4: Service Center
+
+This is a project meant to demonstrate our mastery of lists and list based ADTs. (Which I think I did an ok job of, even if it doesn't work.)
+It represents a Student Services Center with three offices: cashier, registrar, and financial aid.
+The project uses a variety of lists, list queues, and arrays to represent the customers waiting at the center, the windows in the center, the lines for the windows, etc.
+The simulation reads a file with information about the number of customers, when they enter the office, and how long they need to spend at each office.
+It keeps track of the average and maximum wait and idle times for each office, as well as the number of students waiting over 10 ticks and the number of windows idle over 5 ticks.
+If it worked, these stats would be printed to the terminal at runtime.
+
+I had fun coding this so I might return to it in the future, but for now I'm too tired to fix it and will just hope for the best on my grade. It compiles at least.
+
+References:
+Stack overflow for so many things - Using arrows for functions since all the lists and listqueues were pointers, using nullptr instead of null since null just means 0 and nullptr means null pointer, how to use stoi because I was so lost last project, '/0' for null character.
+Hayden Kaufmann - Attempted troubleshooting and emotional support.
+
+Issues:
+Segmentation faults are the death of me. Decided to just clean it up, comment and turn it in.
+Pretty sure I didn't do enough error checking but I'm proud of my logic at least? Like conceptually this project makes sense and I can visualize it in my head.
+Had some trouble coming up with variable names since I ended up using so many.
